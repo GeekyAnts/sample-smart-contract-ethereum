@@ -1,0 +1,11 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore the file
+/cache
+/coverage
+/node_modules
+
+# Ignore the lock file
+
+package-lock.json

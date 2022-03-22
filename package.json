@@ -1,0 +1,25 @@
+{
+  "name": "counter-smart-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test:waffle": "hardhat test",
+    "test": "hardhat coverage",
+    "local-testnet": "hardhat node",
+    "deploy:local": "hardhat run --network localhost scripts/counter.js"
+  },
+  "keywords": [],
+  "author": "Pushkar Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.6.1",
+    "hardhat": "^2.9.1",
+    "solidity-coverage": "^0.7.20"
+  }
+}
