@@ -1,6 +1,6 @@
 # Sample Solidity Project
 
-This is a sample solidity project, aims to help one to get started into the world of smart contracts.
+This is a sample solidity project, aims to help one to get started into the world of smart contracts. For step to step guide refer [Setting up solidity and writing our first smart contract](https://hashnode.com/preview/6236b3f0bef4c71aa6f111ac).
 
 ## Pre Requisites
 
@@ -56,14 +56,22 @@ Clone the project and go to project directory.
 
 Use `npm install` to pull in all dependencies.
 
-Solidity code goes into `contracts/Counter.sol`, tests (Waffle/mocha/chai) go into `test/Counter.test.js`, Hardhat scripts go into `scripts/`.
+Solidity code goes into `contracts/Counter.sol`, tests (Waffle/mocha/chai) go into `test/Counter.test.js`, Hardhat scripts go into `scripts/counter.js`.
 
 Use `npm run build` to compile your contracts.
+
+On compiling the contracts an abi file gets created at `artifacts/contracts/Counter.sol/Counter.json`. The abi file defines the standard way of interacting with smart contract in the ethereum ecosystem.
+
+![compile](https://github.com/GeekyAnts/sample-smart-contract-ethereum/blob/develop/assets/compile.png)
 
 Use `npm run test:light` to run all tests without a coverage report.
 
 Use `npm run test` to run all tests including a coverage report.
 
+![coverage](https://github.com/GeekyAnts/sample-smart-contract-ethereum/blob/develop/assets/coverage.png)
+
 Use `npm run local-testnet` to spin up a local Hardhat testnet (Best run this in a separate terminal. It's a long-running process).
 
-Use `npm run deploy:local` to run `scripts/counter.js` which deploys the example contract to your local testnet, previously started with `npm run local-testnet`.
+Use `npm run deploy:local` to run `scripts/counter.js` which deploys the counter contract to your local testnet, previously started with `npm run local-testnet`.
+
+![deploy](https://github.com/GeekyAnts/sample-smart-contract-ethereum/blob/develop/assets/deploy.png)
