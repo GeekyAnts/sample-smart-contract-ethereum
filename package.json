@@ -8,7 +8,8 @@
     "test:waffle": "hardhat test",
     "test": "hardhat coverage",
     "local-testnet": "hardhat node",
-    "deploy:local": "hardhat run --network localhost scripts/counter.js"
+    "deploy:local": "hardhat run --network localhost scripts/counter.js",
+    "deploy:rinkeby": "hardhat run --network rinkeby scripts/counter.js"
   },
   "keywords": [],
   "author": "Pushkar Kumar",
