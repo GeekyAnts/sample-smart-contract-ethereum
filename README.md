@@ -75,3 +75,4 @@ Use `npm run local-testnet` to spin up a local Hardhat testnet (Best run this in
 Use `npm run deploy:local` to run `scripts/counter.js` which deploys the counter contract to your local testnet, previously started with `npm run local-testnet`.
 
 ![deploy](https://github.com/GeekyAnts/sample-smart-contract-ethereum/blob/develop/assets/deploy.png)
+# sample-supply-chain-ethereum
